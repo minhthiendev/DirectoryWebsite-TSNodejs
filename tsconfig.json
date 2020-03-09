@@ -5,11 +5,11 @@
         "pretty": true,
         "sourceMap": true,
         "target": "es6",
-        "outDir": "./dist",
-        "baseUrl": "./src"
+        "outDir": "./build",
+        "baseUrl": "./app"
     },
     "include": [
-        "src/**/*.ts"
+        "app/**/*.ts", "index.ts"
     ],
     "exclude": [
         "node_modules"
